@@ -1,2 +1,2 @@
-8/25/2016
-Today we started for the first time to learn about Python. We did an in class research project with some of the basic built-in functions of the Python language. We also learned about the history of the Python language. We learned that the newest version of the language is Python 3 and that most people are upset that Python 3 removes most of the conventions of Python 2. We also learned about different paradigms and researched the differences between an Imperative paradigm and a Declarative Paradigm on Stack Overflow.
+8/29/2016
+Today, we made two programs during the warm up period of class. Due to several issues, our class took longer than expected for these two programs and we ended up using the whole period for warm up. 
