@@ -1,2 +1,2 @@
-8/29/2016
-Today, we made two programs during the warm up period of class. Due to several issues, our class took longer than expected for these two programs and we ended up using the whole period for warm up. 
+8/31/2016
+Today we had a short period and we tried to program a program that would identify planets inputed by the user and return the distance of the planet in regards to the Earth.
