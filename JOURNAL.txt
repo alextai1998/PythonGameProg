@@ -1,2 +1,2 @@
 9/1/2016
-Today we learned about Boolean Operators. We know that the output is limited to true and false. We started the lesson with the truth table. We also saw diagrams and learned to translate the diagrams into code structure.
+Today we learned about Boolean Operators. We know that the output is limited to true and false. We started the lesson with the truth table. We also saw diagrams and learned to translate the diagrams into code structure. We later on used PyCharm to design a program that will allow us to input two numbers to find their average.
