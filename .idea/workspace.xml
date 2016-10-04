@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbf3f9f-1a09-477e-94fd-a8be272c7637" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coffeeMaker.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/legoDistinguisher.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pizzaMachine.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coffeeMaker.py" afterPath="$PROJECT_DIR$/coffeeMaker.py" />
     </list>
     <ignored path="PythonGameProg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,12 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="coffeeMaker.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coffeeMaker.py">
+      <file leaf-file-name="pizzaMachine.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pizzaMachine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="780">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+              <folding>
+                <element signature="e#72#83#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +77,8 @@
         <option value="$PROJECT_DIR$/skipping3s.py" />
         <option value="$PROJECT_DIR$/testQuestion1.py" />
         <option value="$PROJECT_DIR$/coffeeMaker.py" />
+        <option value="$PROJECT_DIR$/legoDistinguisher.py" />
+        <option value="$PROJECT_DIR$/pizzaMachine.py" />
       </list>
     </option>
   </component>
@@ -134,7 +140,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.coffeeMaker">
+  <component name="RunManager" selected="Python.pizzaMachine">
     <configuration default="false" name="exerciseNumber7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,40 +154,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonGameProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exerciseNumber7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="wordReverser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonGameProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordReverser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="palindromeChecker" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonGameProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/palindromeChecker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -216,6 +188,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonGameProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coffeeMaker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="legoDistinguisher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonGameProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/legoDistinguisher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pizzaMachine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonGameProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pizzaMachine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -369,18 +375,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.exerciseNumber7" />
-      <item index="1" class="java.lang.String" itemvalue="Python.wordReverser" />
-      <item index="2" class="java.lang.String" itemvalue="Python.palindromeChecker" />
-      <item index="3" class="java.lang.String" itemvalue="Python.testQuestion1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.coffeeMaker" />
+      <item index="1" class="java.lang.String" itemvalue="Python.testQuestion1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.coffeeMaker" />
+      <item index="3" class="java.lang.String" itemvalue="Python.legoDistinguisher" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pizzaMachine" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.coffeeMaker" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testQuestion1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.exerciseNumber7" />
-        <item index="3" class="java.lang.String" itemvalue="Python.palindromeChecker" />
-        <item index="4" class="java.lang.String" itemvalue="Python.wordReverser" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pizzaMachine" />
+        <item index="1" class="java.lang.String" itemvalue="Python.legoDistinguisher" />
+        <item index="2" class="java.lang.String" itemvalue="Python.coffeeMaker" />
+        <item index="3" class="java.lang.String" itemvalue="Python.testQuestion1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.exerciseNumber7" />
       </list>
     </recent_temporary>
   </component>
@@ -451,6 +457,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/coffeeMaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/coffeeMaker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -762,11 +776,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Lego Challenge.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/legoDistinguisher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/coffeeMaker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="18" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzaMachine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <element signature="e#72#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,10 +1,6 @@
 # This section imports the necessary libraries needed for this function
 import time
 
-now = time.clock()
-future = now + 10
-print(now)
-
 menu = "1-Latte, 2-Americano, 3-Espresso, C-Cancel, S-Start"
 tempPrice = 0
 
