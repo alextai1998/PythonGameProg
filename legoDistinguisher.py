@@ -2,6 +2,7 @@ import math as m
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def dbeams(x, y):
     dx = x - 7
     dy = y - 4
@@ -17,21 +18,24 @@ def dbrick(x, y):
     result = m.sqrt(ans)
     return result
 
+# Variable initialization
 beamCounter = 0
 brickCounter = 0
 
-legos = np.loadtxt('Legos.txt', delimiter=',')
+legos = np.loadtxt('Legos.txt', delimiter=',')  # Importing the text file that contains the points.
 
-for x, y in legos:
-    if dbeams(x, y) < dbrick(x, y):
+for x, y in legos:  # Steps through the pairs of points
+    if dbeams(x, y) < dbrick(x, y):  # Compares the distance
         beamCounter += 1
+        plt.scatter(x, y, color='blue')
     else:
         brickCounter += 1
+        plt.scatter(x, y, color='red')
 
-print(beamCounter)
-print(brickCounter)
+plt.scatter(7, 4, color='yellow')  # Prints the most representative brick/beam
+plt.scatter(3, 5, color='black')  # Prints the most representative brick/beam
 
-for x, y in legos:
-    plt.scatter(x, y, color='gray')
+print("Number of beams: %r" % beamCounter)
+print("Number of bricks: %r" % brickCounter)
 
-plt.show()
+plt.show()  # Shows the scatter plot

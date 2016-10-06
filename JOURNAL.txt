@@ -1,2 +1,2 @@
-9/7/2016
-Today was a short period and we did exercises for while loops. We spent some time solving the problem of splitting an integer and then returning the digits separately.
+10/6/2016
+OMG…so it has been a while since I’ve updated my journal because I have been super busy with SATs and college essays. In order to tackle this issue, I have not set an alarm clock every Monday, Wednesday, and Thursday to remind me to write a journal entry. Today in class, we worked ever more on the lego distinguisher challenge. I just finished the program but I’m not sure if it is correct.
