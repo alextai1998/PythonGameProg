@@ -1,5 +1,5 @@
 """
-This program include a function that multiplies all the numbers in a list.
+This program includes a function that multiplies all the numbers in a list.
 The function also skips non-numeric values.
 """
 
