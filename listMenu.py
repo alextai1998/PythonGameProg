@@ -12,7 +12,7 @@ def menu_input(a):
         print("     %r. " % (i+1) + a[i])
     pref = input("What is your preference (1-%r)? Or press X to exit. " % len(a))
 
-    if pref == "X" or "x":
+    if pref == "X" or pref == "x":
         sys.exit()
     else:
         print(a[int(pref)-1])
