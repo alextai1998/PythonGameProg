@@ -20,7 +20,10 @@ def count(a):
 
 
 value = input("Enter a string of words: ")
+value = value.lower()
+
 mlist = value.split()
+
 
 print(mlist)
 
