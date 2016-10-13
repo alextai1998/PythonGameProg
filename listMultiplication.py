@@ -4,21 +4,15 @@ The function also skips non-numeric values.
 """
 
 
-def multiply():
+def multiply(a):
+    # A function that multiplies all the numbers in a list.
+    # The function also skips non-numeric values.
+    # conditions: 'a' should be a list
     product = 1
-    mlist = []
-    while True:
-        value = input("Enter the value that should be multiplied. (or enter nothing to stop.): ")
-        if value == "":
-            break
-        mlist.append(value)  # list concatenation
-
-    for value in mlist:
+    for value in a:
         try:
             product *= int(value)
         except ValueError:
             continue
+    return product
 
-    print("The product is: %r" % product)
-
-multiply()

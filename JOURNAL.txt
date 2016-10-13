@@ -1,2 +1,2 @@
-10/12/2016
-So today in class we learned about list comprehensions. It is, in essence, a new convention or writing lists and generating them. It allows the programmer to save a lot of lines by defining the contents of the list while defining the list. Dr. Pinzon also threw at us a really complicated challenge question towards the end of the class and I think I won’t survive.
+10/13/2016
+Today, we have a a short period despite being thursday. This is because the school switched our wednesday and thursday schedule to accommodate the preview forum for art students in our school. We spent the rest of the class discussing the relevant functions needed to construct the algorithm for web searches implemented by Google.
