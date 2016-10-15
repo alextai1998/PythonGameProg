@@ -4,27 +4,25 @@ This program includes a function that counts how many times a word appears in a 
 
 
 def count(a):
-    alist = a
-    blist = []
+    # A function that counts how many times a word appears in a text
+    # conditions: 'a' should be a string
+    a = a.lower()
+    list_a = a.split()
+    list_b = []
     counter = []
 
-    for j in alist:
-        if j in blist:
-            counter[blist.index(j)] += 1
+    for j in list_a:
+        if j in list_b:
+            counter[list_b.index(j)] += 1
         else:
-            blist.append(j)
+            list_b.append(j)
             counter.append(1)
 
-    for i in range(len(blist)):
-        print("Number of occurrences of '" + blist[i] + "' = " + str(counter[i]))
+    for i in range(len(list_b)):
+        print("Number of occurrences of '" + list_b[i] + "' = " + str(counter[i]))
 
 
-value = input("Enter a string of words: ")
-value = value.lower()
-
-mlist = value.split()
+value = "Hello HELLO hello alex ALEX Alex jason tai Tai"
 
 
-print(mlist)
-
-count(mlist)
+count(value)
