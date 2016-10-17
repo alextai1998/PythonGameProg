@@ -79,3 +79,55 @@ def count(a):
         list_c.append(counter[i])
 
     return list_c
+
+
+def readTxt(fileName):
+    """
+    Reads and return a text in a file
+    :param filepath: address to the input file
+    :return: list
+    """
+    f = open(fileName, "r")
+    returnText = f.read().lower()
+    f.close()
+    return returnText.split()
+
+
+def findNextWord(key, text):
+    """
+    Find the next word of a given key word
+    :param key: word of interest
+    :param text: the text to study [type: list]
+    :return: a list with the following words
+    """
+    nextWordlist = []
+    frequencylist = []
+
+    for idx, word in enumerate(text):
+        if word == key:
+            nxtwrd = text[idx+1]
+            if nxtwrd in nextWordlist:
+                frequencylist[nextWordlist.index(nxtwrd)] += 1
+            else:
+                nextWordlist.append(nxtwrd)
+                frequencylist.append(1)
+
+    return nextWordlist, frequencylist
+
+
+def probOcurrence(count):
+   """
+   Calculates the accumulated probability of an event
+   :param count: a list with event's count
+   :return: a list with probabilities
+   """
+   nEvents = sum(count)
+   prob = [1.0*x/nEvents for x in count]
+   density = []
+   total = 0
+
+   for p in prob:
+       total += p
+       density.append(total)
+
+   return density

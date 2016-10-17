@@ -1,2 +1,2 @@
-10/13/2016
-Today, we have a a short period despite being thursday. This is because the school switched our wednesday and thursday schedule to accommodate the preview forum for art students in our school. We spent the rest of the class discussing the relevant functions needed to construct the algorithm for web searches implemented by Google.
+10/17/2016
+Today, we worked on our random word generator. We first started off by watching Jansen’s machine and went to Today’s Meet to discuss what we’ve learned from the video in terms of python programming. Most people talked about breaking down really hard problems and solving them in simple and easy pieces. We then continued with the class by going over the  functions that we’ve listed out in class last time.

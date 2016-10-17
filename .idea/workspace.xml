@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbbf3f9f-1a09-477e-94fd-a8be272c7637" name="Default" comment="" />
+    <list default="true" id="fbbf3f9f-1a09-477e-94fd-a8be272c7637" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lyrics.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alexLib.py" afterPath="$PROJECT_DIR$/alexLib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classworkMisc.py" afterPath="$PROJECT_DIR$/classworkMisc.py" />
+    </list>
     <ignored path="PythonGameProg.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +25,55 @@
     <favorites_list name="PythonGameProg" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="lyrics.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lyrics.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2914">
+              <caret line="62" column="1" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alexLib.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alexLib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+              <folding>
+                <element signature="e#112#514#0" expanded="false" />
+                <element signature="e#538#831#0" expanded="false" />
+                <element signature="e#860#1043#0" expanded="false" />
+                <element signature="e#1071#1214#0" expanded="false" />
+                <element signature="e#1241#1821#0" expanded="false" />
+                <element signature="e#1842#2403#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listAccumulatedSum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listAccumulatedSum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classworkMisc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classworkMisc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,15 +117,16 @@
         <option value="$PROJECT_DIR$/listMenu.py" />
         <option value="$PROJECT_DIR$/listWordsInStrings.py" />
         <option value="$PROJECT_DIR$/listPrintFrame.py" />
-        <option value="$PROJECT_DIR$/classworkMisc.py" />
         <option value="$PROJECT_DIR$/googleSearchAlgorithm.py" />
         <option value="$PROJECT_DIR$/listAlternativeCombine.py" />
         <option value="$PROJECT_DIR$/listMultiplication.py" />
         <option value="$PROJECT_DIR$/listOddPositions.py" />
         <option value="$PROJECT_DIR$/legoDistinguisher.py" />
         <option value="$PROJECT_DIR$/listRepetitionCounter.py" />
-        <option value="$PROJECT_DIR$/alexLib.py" />
         <option value="$PROJECT_DIR$/listAccumulatedSum.py" />
+        <option value="$PROJECT_DIR$/lyrics.txt" />
+        <option value="$PROJECT_DIR$/classworkMisc.py" />
+        <option value="$PROJECT_DIR$/alexLib.py" />
       </list>
     </option>
   </component>
@@ -133,7 +188,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.listMenu">
+  <component name="RunManager" selected="Python.classworkMisc">
     <configuration default="false" name="listRepetitionCounter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,23 +202,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonGameProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listRepetitionCounter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="legoDistinguisher" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonGameProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/legoDistinguisher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -215,6 +253,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonGameProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listMenu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="classworkMisc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonGameProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classworkMisc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -368,18 +423,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.listRepetitionCounter" />
-      <item index="1" class="java.lang.String" itemvalue="Python.legoDistinguisher" />
-      <item index="2" class="java.lang.String" itemvalue="Python.alexLib" />
-      <item index="3" class="java.lang.String" itemvalue="Python.listAccumulatedSum" />
-      <item index="4" class="java.lang.String" itemvalue="Python.listMenu" />
+      <item index="1" class="java.lang.String" itemvalue="Python.alexLib" />
+      <item index="2" class="java.lang.String" itemvalue="Python.listAccumulatedSum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.listMenu" />
+      <item index="4" class="java.lang.String" itemvalue="Python.classworkMisc" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.listMenu" />
-        <item index="1" class="java.lang.String" itemvalue="Python.listAccumulatedSum" />
-        <item index="2" class="java.lang.String" itemvalue="Python.alexLib" />
-        <item index="3" class="java.lang.String" itemvalue="Python.listRepetitionCounter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.legoDistinguisher" />
+        <item index="0" class="java.lang.String" itemvalue="Python.classworkMisc" />
+        <item index="1" class="java.lang.String" itemvalue="Python.listMenu" />
+        <item index="2" class="java.lang.String" itemvalue="Python.listAccumulatedSum" />
+        <item index="3" class="java.lang.String" itemvalue="Python.alexLib" />
+        <item index="4" class="java.lang.String" itemvalue="Python.listRepetitionCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -391,22 +446,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21327014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21327014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -450,13 +505,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/splittingIntegers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diceStatistics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -698,13 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classworkMisc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/googleSearchAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -768,13 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listAccumulatedSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/listMenu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -782,10 +816,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lyrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2914">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classworkMisc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listAccumulatedSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alexLib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        <state relative-caret-position="437">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding>
+            <element signature="e#112#514#0" expanded="false" />
+            <element signature="e#538#831#0" expanded="false" />
+            <element signature="e#860#1043#0" expanded="false" />
+            <element signature="e#1071#1214#0" expanded="false" />
+            <element signature="e#1241#1821#0" expanded="false" />
+            <element signature="e#1842#2403#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
