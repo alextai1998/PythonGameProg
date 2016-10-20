@@ -1,2 +1,2 @@
-10/17/2016
-Today, we worked on our random word generator. We first started off by watching Jansen’s machine and went to Today’s Meet to discuss what we’ve learned from the video in terms of python programming. Most people talked about breaking down really hard problems and solving them in simple and easy pieces. We then continued with the class by going over the  functions that we’ve listed out in class last time.
+10/20/2016
+I am absent today for the Python class because I went to the eye doctor for a checkup.
