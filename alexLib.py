@@ -131,3 +131,18 @@ def probOcurrence(count):
        density.append(total)
 
    return density
+
+
+def randomWord(words, density):
+   """
+   Calculates the accumulated probability of an event
+   :param words, density: words list returned, density returned from prev function
+   :return: a list with probabilities
+   """
+   import random as rn
+   n = rn.random()
+   idx = 0
+   while n > density[idx]:
+       idx += 1
+
+   return words[idx]

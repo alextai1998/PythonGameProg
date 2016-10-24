@@ -1,2 +1,8 @@
-10/20/2016
-I am absent today for the Python class because I went to the eye doctor for a checkup.
+10/24/2016
+Today we learned about dictionaries and also compared it to lists. We figured out some of the differing methods that
+dictionaries and lists have. Dictionaries have the methods : del, clear, copy, fromkeys, get, items, keys, values
+del is similar to the remove method of lists; clear, as the name suggests, clears all the values and the keys from the
+existing dictionary. fromkeys can be used to mass assign values; get is similar to just calling a value but allows
+default set up. Lastly, items, keys, and values return the things the name of the method suggests. For items, the method
+returns the keys and the values as a tuple pair side by side. For our homework, we need to figure out what a function is
+doing. The function includes a list.
