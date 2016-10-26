@@ -1,8 +1,2 @@
-10/24/2016
-Today we learned about dictionaries and also compared it to lists. We figured out some of the differing methods that
-dictionaries and lists have. Dictionaries have the methods : del, clear, copy, fromkeys, get, items, keys, values
-del is similar to the remove method of lists; clear, as the name suggests, clears all the values and the keys from the
-existing dictionary. fromkeys can be used to mass assign values; get is similar to just calling a value but allows
-default set up. Lastly, items, keys, and values return the things the name of the method suggests. For items, the method
-returns the keys and the values as a tuple pair side by side. For our homework, we need to figure out what a function is
-doing. The function includes a list.
+10/26/2016
+Midterm weeeeeeek! I am super grateful that we are taking Python class slowly this week. With early college applications due very soon and halloween around the corner, another test this week would definitely kill me. ALSO Math II is coming up soon too. Today we learned how to graph a scatter plot that forms the shape of a circle. We then spent the rest of the class looking at other programmers errors.
