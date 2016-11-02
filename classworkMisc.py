@@ -62,3 +62,21 @@ k = list(b.keys())
 
 print(k[0])
 """
+
+"""
+i = [1, 2, 3, 5, 8, 13]
+j = []
+
+for l in i:
+    j.append(l)
+
+print(j)
+"""
+
+"""
+li = [1, 2, 3, 0, 0, 1]
+hello = [elem for elem in li if elem != 0 if elem != 1]
+print(hello)
+"""
+
+line_lisy = [line for line in file.splitlines() if item in line for item in my_list]

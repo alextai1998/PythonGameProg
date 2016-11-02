@@ -1,2 +1,2 @@
-10/26/2016
-Midterm weeeeeeek! I am super grateful that we are taking Python class slowly this week. With early college applications due very soon and halloween around the corner, another test this week would definitely kill me. ALSO Math II is coming up soon too. Today we learned how to graph a scatter plot that forms the shape of a circle. We then spent the rest of the class looking at other programmers errors.
+11/2/2016
+It has been a while since our last Python Class… this is because we didn’t have a Monday schedule on Monday but rather a Tuesday schedule. Today in class, we works on a tic tac toe problem and it is due next class.
