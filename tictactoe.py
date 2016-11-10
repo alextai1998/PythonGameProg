@@ -143,7 +143,65 @@ def display_tie():
     print("***********************")
 
 
+def winner_check(data):
+    """
+    Combines 3 functions above into one.
+    :param plays: A dictionary that includes the locations and the values of the grid
+    :return: True if a winner is determined, false if not
+    """
+
+    if turn["human"] == "X":
+        if x_winner_check(data["grid"]):
+            data["score"] += 10
+        elif o_winner_check(data("grid")):
+            data["score"] -= 10
+    else:
+        if x_winner_check(data["grid"]):
+            data["score"] -= 10
+        elif o_winner_check(data("grid")):
+            data["score"] += 10
+
+
+def generate_children(data):
+    """
+    generates all possible moves in the game
+    :param data: dictionary grid, turn, score, children
+    :return children: a list of data
+    """
+    children = []
+    score = 0
+    for key, value in gridStruct["grid"].items():
+        if value == " ":
+            gridChild = boardValues.copy()
+            gridChild[key] = data["turn"]
+            nextTurn = "X" if data["turn"] == "O" else "O"
+            display_grid(gridChild)
+            print(" ")
+            if winner_check(gridChild):
+                score += 10
+                gridStructChild = {'grid': gridChild,
+                                   'score': score,
+                                   'turn': nextTurn,
+                                   'children': None}
+                children.append(gridStructChild)
+    return children
+
+turn = {"human": "X", "machine": "O"}
 boardValues = {1: " ", 2: " ", 3: " ", 4: " ", 5: " ", 6: " ", 7: " ", 8: " ", 9: " "}  # Initializes the board
+
+firstPlayer = input("Who should go first? Human or Machine? (H/M) ")
+if firstPlayer.upper() == "M":
+    turn = {"human": "O", "machine": "X"}
+    gridStruct = {"grid": boardValues,
+                  "score": None,
+                  "children": None,
+                  "turn": turn["machine"]}
+else:
+    gridStruct = {"grid": boardValues,
+                  "score": None,
+                  "children": None,
+                  "turn": turn["human"]}
+
 display_grid(boardValues)  # Displays starting board
 
 
@@ -151,8 +209,7 @@ while True:
     # Player 1's Turn
     update_x()
     display_grid(boardValues)
-    if x_winner_check(boardValues):
-        display_winner(1)
+    if winner_check(boardValues):
         break
 
     # Tie Check after Player 1's Turn
@@ -163,8 +220,7 @@ while True:
     # Player 2's Turn
     update_o()
     display_grid(boardValues)
-    if o_winner_check(boardValues):
-        display_winner(2)
+    if winner_check(boardValues):
         break
 
     # Tie Check after Player 1's Turn
