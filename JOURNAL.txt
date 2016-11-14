@@ -1,2 +1,2 @@
-11/10/2016
-I am finally back! I have been out for a while and evidently I have a lot to catch up with. My tic tac toe program is a mess right now because it contains partial features of a two player game and partial features of a AI/one player game. I need time to clean up the program so that it can be remotely comprehensible. 
+11/14/2016
+Today in class we worked on the data representation and encapsulation. We have recursion warm up for homework.
