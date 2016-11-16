@@ -1,2 +1,2 @@
-11/14/2016
-Today in class we worked on the data representation and encapsulation. We have recursion warm up for homework.
+11/16/2016
+We worked on drawing a branch/tree with turtle!
