@@ -1,2 +1,2 @@
-11/16/2016
-We worked on drawing a branch/tree with turtle!
+11/17/2016
+We worked on turtles and figured out the branches/tree problem!
