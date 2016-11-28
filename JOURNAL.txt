@@ -1,2 +1,2 @@
-11/17/2016
-We worked on turtles and figured out the branches/tree problem!
+11/28/2016
+Today we wrapped up on recursions by drawing circles with turtle.
