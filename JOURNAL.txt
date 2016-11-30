@@ -1,2 +1,2 @@
-11/28/2016
-Today we wrapped up on recursions by drawing circles with turtle.
+11/30/2016
+We turned in our pluralizer program today~
