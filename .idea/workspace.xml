@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbf3f9f-1a09-477e-94fd-a8be272c7637" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluralizer.py" afterPath="$PROJECT_DIR$/pluralizer.py" />
     </list>
     <ignored path="PythonGameProg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +45,8 @@
       <file leaf-file-name="pluralizer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pluralizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="375">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -826,8 +826,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pluralizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="375">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding />
         </state>
       </provider>
