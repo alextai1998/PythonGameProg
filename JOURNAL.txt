@@ -1,2 +1,2 @@
-11/30/2016
-We turned in our pluralizer program today~
+12/05/2016
+We worked on wrap up on Strings and methods of strings and learned that strings are immutable today. For our homework, we need to find out the number of times words repeat themselves in a text from Narnia.
