@@ -146,3 +146,20 @@ def randomWord(words, density):
        idx += 1
 
    return words[idx]
+
+
+def printMenu(items, lwidth, rwidth, title):
+    """
+    Prints a dictionary's keys and values in a menu format
+    :param items: dictionary
+    :param lwidth: int
+    :param rwidth: int
+    :param title: string
+    :return: None
+    """
+    x = title
+
+    print(x.center(lwidth+rwidth, "-"))
+
+    for k, v in items.items():
+        print(k.ljust(lwidth, ".") + str(v).rjust(rwidth, "."))
