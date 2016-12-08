@@ -17,25 +17,31 @@ for w in glossary:
         finish = glossary.index(w)
 
 narnia = glossary[start:finish]
+punctLessNarnia = []
 
 for index, word in enumerate(narnia):
-    for char in narnia[index]:
+    for char in word:
         if char in punctuation:
-            narnia[index] = word.replace(char, "")
+            word = word.replace(char, "")
+    punctLessNarnia.append(word)
 
 
-iterations = {}
+wordBank = {}
 filteredNarnia = []
 
-for x in narnia[1:100]:
+for x in punctLessNarnia:
     if len(x) == 5:
         filteredNarnia.append(x)
 
-for x in filteredNarnia[1:100]:
-    if x in iterations.keys():
-        iterations[x] += 1
+for x in filteredNarnia:
+    if x in wordBank.keys():
+        wordBank[x] += 1
     else:
-        iterations[x] = 1
+        wordBank[x] = 1
 
-al.printMenu(iterations, 22, 16, "Words")
+wblist = [(k, v) for k, v in wordBank.items()]
 
+sortList = al.preBubble(wblist)
+print(sortList)
+
+al.printMenu(sortList, 22, 16, "Words")

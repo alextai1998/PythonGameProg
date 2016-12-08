@@ -161,5 +161,35 @@ def printMenu(items, lwidth, rwidth, title):
 
     print(x.center(lwidth+rwidth, "-"))
 
-    for k, v in items.items():
-        print(k.ljust(lwidth, ".") + str(v).rjust(rwidth, "."))
+    for element in items:
+        print(element[0].ljust(lwidth, ".") + str(element[1]).rjust(rwidth, "."))
+
+
+def bubbleSort(items):
+    """
+    Simple sorting algorithm
+    :param items: list
+    :return: two lists
+    """
+    index = list(range(len(items)))
+    for i in range(len(items)):
+        for j in range(len(items)-i-1):
+            if items[j] < items[j+1]:
+                items[j], items[j+1] = items[j+1], items[j]
+                index[j], index[j+1] = index[j+1], index[j]
+    return items, index
+
+
+def preBubble(wordBankList):
+    """
+    Return the sorted bank of words
+    :param wordBankList: list of unsorted tuples
+    :return: list of tuples
+    """
+    items = [element[1] for element in wordBankList]
+    items_sort, index = bubbleSort(items)
+    sortWordBank = [wordBankList[i] for i in index]
+    return sortWordBank
+
+
+def insertionSort(items)
