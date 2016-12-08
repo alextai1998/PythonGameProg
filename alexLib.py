@@ -192,4 +192,14 @@ def preBubble(wordBankList):
     return sortWordBank
 
 
-def insertionSort(items)
+def insertionSort(items):
+    for i in range(1, len(items)):
+        j = i
+        while j > 0 and items[j] < items[j-1]:
+            items[j], items[j-1] = items[j-1], items[j]
+            j -= 1
+    return items
+
+items = [5, 9, 7, 2]
+
+print(insertionSort(items))
