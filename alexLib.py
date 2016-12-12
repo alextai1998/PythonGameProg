@@ -1,6 +1,7 @@
 """
 This program serves as a library for all of the functions Alex wrote in class.
 """
+import re
 
 
 def combine(a, b):
@@ -200,6 +201,67 @@ def insertionSort(items):
             j -= 1
     return items
 
-items = [5, 9, 7, 2]
+def promptEmailInput():
+    store = input("Please enter an email address: ")
+    taboo = "`~!#$%^&*()+={}|[]\\:;\"'<>?,/- "
+    numOfAts = 0
 
-print(insertionSort(items))
+    for char in store:
+        if char == "@":
+            numOfAts += 1
+    if numOfAts != 1:
+        return False
+
+    for char in store:
+        if char in taboo:
+            return False
+
+    # for index, char in enumerate(store):
+    #     if char == "@":
+    #         for i in range(index, len(store)):
+    #             if i == ".":
+    #                 flag = True
+    #             else:
+    #                 flag = False
+    #         return flag
+
+    return True
+
+
+print(promptEmailInput())
+
+
+def promptDateInput():
+    store = input("Please enter the date (yyyy-mm-dd): ")
+    taboo = "`~!#$%^&*()+={}|[]\\:;\"'<>?,/- "
+    numOfAts = 0
+
+    for char in store:
+        if char == "@":
+            numOfAts += 1
+    if numOfAts != 1:
+        return False
+
+    for char in store:
+        if char in taboo:
+            return False
+
+    # for index, char in enumerate(store):
+    #     if char == "@":
+    #         for i in range(index, len(store)):
+    #             if i == ".":
+    #                 flag = True
+    #             else:
+    #                 flag = False
+    #         return flag
+
+    return True
+
+
+def smartEmailValid():
+    addressToVerify ='info@emailhippo.com'
+    match = re.match('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$', addressToVerify)
+
+    if match == None:
+        print('Bad Syntax')
+        raise ValueError('Bad Syntax')

@@ -1,2 +1,2 @@
 12/08/2016
-Today in class, we went over a few exercises on sorting and were introduced to a few sorting algorithms. The first and simplest sorting algorithm is the bubble sorting method and the second one is the insertion method.
+Today we learned a really horrifying set of tools called Regular Expressions. Even though it is a pain in the butt right now, I’m sure they will become extremely useful later on!
