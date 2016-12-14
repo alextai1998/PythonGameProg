@@ -2,6 +2,7 @@
 This program serves as a library for all of the functions Alex wrote in class.
 """
 import re
+import timeit
 
 
 def combine(a, b):
@@ -166,41 +167,6 @@ def printMenu(items, lwidth, rwidth, title):
         print(element[0].ljust(lwidth, ".") + str(element[1]).rjust(rwidth, "."))
 
 
-def bubbleSort(items):
-    """
-    Simple sorting algorithm
-    :param items: list
-    :return: two lists
-    """
-    index = list(range(len(items)))
-    for i in range(len(items)):
-        for j in range(len(items)-i-1):
-            if items[j] < items[j+1]:
-                items[j], items[j+1] = items[j+1], items[j]
-                index[j], index[j+1] = index[j+1], index[j]
-    return items, index
-
-
-def preBubble(wordBankList):
-    """
-    Return the sorted bank of words
-    :param wordBankList: list of unsorted tuples
-    :return: list of tuples
-    """
-    items = [element[1] for element in wordBankList]
-    items_sort, index = bubbleSort(items)
-    sortWordBank = [wordBankList[i] for i in index]
-    return sortWordBank
-
-
-def insertionSort(items):
-    for i in range(1, len(items)):
-        j = i
-        while j > 0 and items[j] < items[j-1]:
-            items[j], items[j-1] = items[j-1], items[j]
-            j -= 1
-    return items
-
 def promptEmailInput():
     store = input("Please enter an email address: ")
     taboo = "`~!#$%^&*()+={}|[]\\:;\"'<>?,/- "
@@ -226,9 +192,6 @@ def promptEmailInput():
     #         return flag
 
     return True
-
-
-print(promptEmailInput())
 
 
 def promptDateInput():
@@ -265,3 +228,51 @@ def smartEmailValid():
     if match == None:
         print('Bad Syntax')
         raise ValueError('Bad Syntax')
+
+
+def bubbleSort(items):
+    """
+    Simple sorting algorithm
+    :param items: list
+    :return: two lists
+    """
+    index = list(range(len(items)))
+    for i in range(len(items)):
+        for j in range(len(items)-i-1):
+            if items[j] < items[j+1]:
+                items[j], items[j+1] = items[j+1], items[j]
+                index[j], index[j+1] = index[j+1], index[j]
+    return items, index
+
+
+def preBubble(wordBankList):
+    """
+    Return the sorted bank of words
+    :param wordBankList: list of unsorted tuples
+    :return: list of tuples
+    """
+    start = timeit.default_timer()
+    items = [element[1] for element in wordBankList]
+    items_sort, index = bubbleSort(items)
+    sortWordBank = [wordBankList[i] for i in index]
+    stop = timeit.default_timer()
+    print(stop-start)
+    return sortWordBank
+
+
+def insertionSort(items):
+    start2 = timeit.default_timer()
+    for i in range(1, len(items)):
+        j = i
+        while j > 0 and items[j] < items[j-1]:
+            items[j], items[j-1] = items[j-1], items[j]
+            j -= 1
+    stop2 = timeit.default_timer()
+    print(stop2-start2)
+    return items
+
+wblist = []
+
+preBubble(wblist)
+insertionSort(wblist)
+

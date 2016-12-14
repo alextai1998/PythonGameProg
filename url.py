@@ -41,7 +41,11 @@ for x in filteredNarnia:
 
 wblist = [(k, v) for k, v in wordBank.items()]
 
-sortList = al.preBubble(wblist)
-print(sortList)
+# sortList = al.preBubble(wblist)
+# print(sortList)
+#
+# al.printMenu(sortList, 22, 16, "Words")
 
-al.printMenu(sortList, 22, 16, "Words")
+
+al.preBubble(wblist)
+al.insertionSort(wblist)
