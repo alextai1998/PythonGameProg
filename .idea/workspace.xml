@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbbf3f9f-1a09-477e-94fd-a8be272c7637" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alexLib.py" afterPath="$PROJECT_DIR$/alexLib.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/url.py" afterPath="$PROJECT_DIR$/url.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classworkMisc.py" afterPath="$PROJECT_DIR$/classworkMisc.py" />
     </list>
     <ignored path="PythonGameProg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +40,7 @@
       <file leaf-file-name="decrypt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/decrypt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="450">
               <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding>
                 <element signature="e#227#240#0" expanded="true" />
@@ -51,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="url.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="url.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/url.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
+            <state relative-caret-position="750">
               <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -66,7 +64,7 @@
       <file leaf-file-name="alexLib.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alexLib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
+            <state relative-caret-position="1170">
               <caret line="273" column="10" selection-start-line="273" selection-start-column="10" selection-end-line="273" selection-end-column="10" />
               <folding>
                 <element signature="e#87#96#0" expanded="true" />
@@ -90,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classworkMisc.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="classworkMisc.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classworkMisc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="112">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -163,9 +161,9 @@
         <option value="$PROJECT_DIR$/cypher.py" />
         <option value="$PROJECT_DIR$/decrypt.py" />
         <option value="$PROJECT_DIR$/pascalsTriangle.py" />
-        <option value="$PROJECT_DIR$/classworkMisc.py" />
         <option value="$PROJECT_DIR$/alexLib.py" />
         <option value="$PROJECT_DIR$/url.py" />
+        <option value="$PROJECT_DIR$/classworkMisc.py" />
       </list>
     </option>
   </component>
@@ -198,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,6 +216,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,7 +226,7 @@
     <property name="FullScreen" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/alextai/Desktop/PythonGameProg/url.py" />
   </component>
-  <component name="RunManager" selected="Python.url">
+  <component name="RunManager" selected="Python.classworkMisc">
     <configuration default="false" name="pluralizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -470,9 +468,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.url" />
-        <item index="1" class="java.lang.String" itemvalue="Python.alexLib" />
-        <item index="2" class="java.lang.String" itemvalue="Python.classworkMisc" />
+        <item index="0" class="java.lang.String" itemvalue="Python.classworkMisc" />
+        <item index="1" class="java.lang.String" itemvalue="Python.url" />
+        <item index="2" class="java.lang.String" itemvalue="Python.alexLib" />
         <item index="3" class="java.lang.String" itemvalue="Python.pascalsTriangle" />
         <item index="4" class="java.lang.String" itemvalue="Python.pluralizer" />
       </list>
@@ -879,17 +877,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classworkMisc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/decrypt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="450">
           <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
             <element signature="e#227#240#0" expanded="true" />
@@ -897,9 +887,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alexLib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="1170">
           <caret line="273" column="10" selection-start-line="273" selection-start-column="10" selection-end-line="273" selection-end-column="10" />
           <folding>
             <element signature="e#87#96#0" expanded="true" />
@@ -922,13 +922,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/url.py">
+    <entry file="file://$PROJECT_DIR$/classworkMisc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

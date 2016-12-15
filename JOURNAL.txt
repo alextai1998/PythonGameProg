@@ -1,2 +1,2 @@
-12/14/2016
-Today we tested out our sorting algorithms and decided that insertion sorts are faster than bubble sorts. We also signed up for CodinGame…which is pretty interesting haha.
+12/15/2016
+Today we continued with CodinGame! I solved the puzzle called “The Descent”
