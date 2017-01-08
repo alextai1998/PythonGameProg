@@ -41,20 +41,20 @@ import math
 
 # Write an action using print
 # To debug: print("Debug messages...", file=sys.stderr)
-n = 6
-temps = ['42', '-5', '12', '21', '5', '24']
-smallestTemp = 5526
+# n = 6
+# temps = ['42', '-5', '12', '21', '5', '24']
+# smallestTemp = 5526
 
-
-if n == 0:
-    print(0)
-else:
-    for i in temps:
-        if abs(int(i)) == abs(smallestTemp):
-            smallestTemp = abs(int(i))
-        elif abs(int(i)) < abs(smallestTemp):
-            smallestTemp = int(i)
-
-print(temps)
-
-print(smallestTemp)
+#
+# if n == 0:
+#     print(0)
+# else:
+#     for i in temps:
+#         if abs(int(i)) == abs(smallestTemp):
+#             smallestTemp = abs(int(i))
+#         elif abs(int(i)) < abs(smallestTemp):
+#             smallestTemp = int(i)
+#
+# print(temps)
+#
+# print(smallestTemp)

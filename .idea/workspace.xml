@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbf3f9f-1a09-477e-94fd-a8be272c7637" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csvTest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classworkMisc.py" afterPath="$PROJECT_DIR$/classworkMisc.py" />
@@ -24,79 +25,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cypher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cypher.py">
+      <file leaf-file-name="csvTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csvTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
               <folding>
-                <element signature="e#24#169#0" expanded="false" />
-                <element signature="e#210#494#0" expanded="false" />
-                <element signature="e#891#1246#0" expanded="false" />
+                <element signature="e#314#2426#0" expanded="false" />
+                <element signature="e#2457#4574#0" expanded="false" />
+                <element signature="e#4605#6722#0" expanded="false" />
+                <element signature="e#6753#8870#0" expanded="false" />
+                <element signature="e#8938#9029#0" expanded="false" />
+                <marker date="1483877943000" expanded="false" signature="32:283" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decrypt.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decrypt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-              <folding>
-                <element signature="e#227#240#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="url.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/url.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alexLib.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alexLib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="273" column="10" selection-start-line="273" selection-start-column="10" selection-end-line="273" selection-end-column="10" />
-              <folding>
-                <element signature="e#87#96#0" expanded="true" />
-                <element signature="e#136#538#0" expanded="false" />
-                <element signature="e#562#855#0" expanded="false" />
-                <element signature="e#884#1067#0" expanded="false" />
-                <element signature="e#1095#1238#0" expanded="false" />
-                <element signature="e#1265#1845#0" expanded="false" />
-                <element signature="e#1866#2427#0" expanded="false" />
-                <element signature="e#2457#2677#0" expanded="false" />
-                <element signature="e#2713#3278#0" expanded="false" />
-                <element signature="e#3310#3634#0" expanded="false" />
-                <element signature="e#3672#3975#0" expanded="false" />
-                <element signature="e#4027#4379#0" expanded="false" />
-                <element signature="e#4410#5000#0" expanded="false" />
-                <element signature="e#5030#5625#0" expanded="false" />
-                <element signature="e#5655#5894#0" expanded="false" />
-                <element signature="e#5924#6300#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classworkMisc.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="classworkMisc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classworkMisc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-              <folding>
-                <element signature="e#737#747#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="583">
+              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pictureUsage.py" />
         <option value="$PROJECT_DIR$/monkeysInTrouble.py" />
         <option value="$PROJECT_DIR$/splittingIntegers.py" />
         <option value="$PROJECT_DIR$/diceStatistics.py" />
@@ -167,6 +117,7 @@
         <option value="$PROJECT_DIR$/alexLib.py" />
         <option value="$PROJECT_DIR$/url.py" />
         <option value="$PROJECT_DIR$/classworkMisc.py" />
+        <option value="$PROJECT_DIR$/csvTest.py" />
       </list>
     </option>
   </component>
@@ -199,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,6 +170,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,24 +180,7 @@
     <property name="FullScreen" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/alextai/Desktop/PythonGameProg/url.py" />
   </component>
-  <component name="RunManager" selected="Python.classworkMisc">
-    <configuration default="false" name="pluralizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonGameProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pluralizer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.csvTest">
     <configuration default="false" name="classworkMisc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,6 +245,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonGameProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pascalsTriangle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="csvTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonGameProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csvTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -463,19 +414,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.pluralizer" />
-      <item index="1" class="java.lang.String" itemvalue="Python.classworkMisc" />
-      <item index="2" class="java.lang.String" itemvalue="Python.url" />
-      <item index="3" class="java.lang.String" itemvalue="Python.alexLib" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pascalsTriangle" />
+      <item index="0" class="java.lang.String" itemvalue="Python.classworkMisc" />
+      <item index="1" class="java.lang.String" itemvalue="Python.url" />
+      <item index="2" class="java.lang.String" itemvalue="Python.alexLib" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pascalsTriangle" />
+      <item index="4" class="java.lang.String" itemvalue="Python.csvTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.classworkMisc" />
-        <item index="1" class="java.lang.String" itemvalue="Python.url" />
-        <item index="2" class="java.lang.String" itemvalue="Python.alexLib" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pascalsTriangle" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pluralizer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.csvTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.classworkMisc" />
+        <item index="2" class="java.lang.String" itemvalue="Python.url" />
+        <item index="3" class="java.lang.String" itemvalue="Python.alexLib" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pascalsTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -487,12 +438,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21327014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39464593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39464593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -559,18 +510,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="54" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/multiplicationTable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Import Module Excercise.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -667,13 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classworkMisc.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -885,7 +822,7 @@
         <state relative-caret-position="450">
           <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
-            <element signature="e#227#240#0" expanded="true" />
+            <element signature="e#227#240#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -895,17 +832,17 @@
         <state relative-caret-position="735">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alexLib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
+        <state relative-caret-position="1100">
           <caret line="273" column="10" selection-start-line="273" selection-start-column="10" selection-end-line="273" selection-end-column="10" />
           <folding>
-            <element signature="e#87#96#0" expanded="true" />
+            <element signature="e#87#96#0" expanded="false" />
             <element signature="e#136#538#0" expanded="false" />
             <element signature="e#562#855#0" expanded="false" />
             <element signature="e#884#1067#0" expanded="false" />
@@ -925,12 +862,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classworkMisc.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classworkMisc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        <state relative-caret-position="583">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
           <folding>
-            <element signature="e#737#747#0" expanded="true" />
+            <element signature="e#314#2426#0" expanded="false" />
+            <element signature="e#2457#4574#0" expanded="false" />
+            <element signature="e#4605#6722#0" expanded="false" />
+            <element signature="e#6753#8870#0" expanded="false" />
+            <element signature="e#8938#9029#0" expanded="false" />
+            <marker date="1483877943000" expanded="false" signature="32:283" ph="..." />
           </folding>
         </state>
       </provider>
