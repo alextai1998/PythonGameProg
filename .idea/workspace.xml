@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbf3f9f-1a09-477e-94fd-a8be272c7637" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/chuckNorris.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/horseracingDuals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/marsLanderEP1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/onboarding.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/powerOfThorEP1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/skynetRevolutionEP1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/temperatures.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/theDescent.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/Assignment 1.csv" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/Assignment 1.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/Assignment 2.csv" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/Assignment 2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/Assignment 3.csv" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/Assignment 3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/Assignment 4.csv" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/Assignment 4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/GoogleActivities.csv" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/GoogleActivities.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/csvConvert.py" afterPath="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/csvConvert.py" />
     </list>
     <ignored path="PythonGameProg.iws" />
@@ -28,15 +31,83 @@
     <favorites_list name="PythonGameProg" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="csvConvert.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/csvConvert.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="horseracingDuals.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/horseracingDuals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-              <folding>
-                <element signature="e#417#552#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="powerOfThorEP1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/powerOfThorEP1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onboarding.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/onboarding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skynetRevolutionEP1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/skynetRevolutionEP1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temperatures.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/temperatures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="marsLanderEP1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/marsLanderEP1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chuckNorris.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/chuckNorris.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theDescent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/theDescent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,14 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/splittingIntegers.py" />
-        <option value="$PROJECT_DIR$/diceStatistics.py" />
-        <option value="$PROJECT_DIR$/AlexTai.py" />
-        <option value="$PROJECT_DIR$/stars.py" />
-        <option value="$PROJECT_DIR$/primeNumbers.py" />
-        <option value="$PROJECT_DIR$/wordReverser.py" />
-        <option value="$PROJECT_DIR$/oneDigit.py" />
-        <option value="$PROJECT_DIR$/75.py" />
         <option value="$PROJECT_DIR$/#6.py" />
         <option value="$PROJECT_DIR$/multiplicationTable.py" />
         <option value="$PROJECT_DIR$/exerciseNumber5.py" />
@@ -106,7 +169,15 @@
         <option value="$PROJECT_DIR$/url.py" />
         <option value="$PROJECT_DIR$/classworkMisc.py" />
         <option value="$PROJECT_DIR$/csvTest.py" />
+        <option value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/temperatures.py" />
+        <option value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/theDescent.py" />
         <option value="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/csvConvert.py" />
+        <option value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/chuckNorris.py" />
+        <option value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/marsLanderEP1.py" />
+        <option value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/horseracingDuals.py" />
+        <option value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/powerOfThorEP1.py" />
+        <option value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/onboarding.py" />
+        <option value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/skynetRevolutionEP1.py" />
       </list>
     </option>
   </component>
@@ -139,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,48 +242,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonGameProg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonGameProg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python Final Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Part 2 - CSV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonGameProg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonGameProg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python Final Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,7 +254,7 @@
     <property name="FullScreen" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/alextai/Desktop/PythonGameProg/url.py" />
   </component>
-  <component name="RunManager" selected="Python.csvConvert (1)">
+  <component name="RunManager" selected="Python.chuckNorris">
     <configuration default="false" name="classworkMisc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,23 +268,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonGameProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classworkMisc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="url" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonGameProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/url.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -305,6 +319,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonGameProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/csvConvert.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="chuckNorris" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonGameProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/chuckNorris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -458,18 +489,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.classworkMisc" />
-      <item index="1" class="java.lang.String" itemvalue="Python.url" />
-      <item index="2" class="java.lang.String" itemvalue="Python.csvTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.csvConvert" />
-      <item index="4" class="java.lang.String" itemvalue="Python.csvConvert (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.csvTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.csvConvert" />
+      <item index="3" class="java.lang.String" itemvalue="Python.csvConvert (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.chuckNorris" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.csvConvert (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.csvConvert" />
-        <item index="2" class="java.lang.String" itemvalue="Python.csvTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.classworkMisc" />
-        <item index="4" class="java.lang.String" itemvalue="Python.url" />
+        <item index="0" class="java.lang.String" itemvalue="Python.chuckNorris" />
+        <item index="1" class="java.lang.String" itemvalue="Python.csvConvert (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.csvConvert" />
+        <item index="3" class="java.lang.String" itemvalue="Python.csvTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.classworkMisc" />
       </list>
     </recent_temporary>
   </component>
@@ -558,14 +589,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stars.py" />
-    <entry file="file://$PROJECT_DIR$/wordReverser.py" />
-    <entry file="file://$PROJECT_DIR$/skipping3s.py" />
-    <entry file="file://$PROJECT_DIR$/oneDigit.py" />
-    <entry file="file://$PROJECT_DIR$/exerciseNumber7.py" />
-    <entry file="file://$PROJECT_DIR$/testQuestion1.py" />
-    <entry file="file://$PROJECT_DIR$/../Lego Challenge.ipynb" />
-    <entry file="file://$PROJECT_DIR$/coffeeMaker.py" />
     <entry file="file://$PROJECT_DIR$/pizzaMachine.py" />
     <entry file="file://$PROJECT_DIR$/functionListsPractice.py" />
     <entry file="file://$PROJECT_DIR$/exerciseNumber5.py" />
@@ -634,11 +657,76 @@
     <entry file="file://$PROJECT_DIR$/Python Final Project/csvConvert.py" />
     <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/csvConvert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="675">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="e#417#552#0" expanded="false" />
+            <element signature="e#188#198#0" expanded="false" />
+            <element signature="e#605#740#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/chuckNorris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/marsLanderEP1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/temperatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/theDescent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/horseracingDuals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/powerOfThorEP1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/onboarding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/skynetRevolutionEP1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>

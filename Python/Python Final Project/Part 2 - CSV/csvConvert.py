@@ -1,3 +1,8 @@
+"""
+This program takes a google grades csv file and a template powerschool grades file, and generates several csv files
+according to the number of assignments on the google csv file.
+"""
+
 import csv
 import datetime
 
