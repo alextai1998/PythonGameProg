@@ -7,12 +7,12 @@ import csv
 import datetime
 
 # Opens google file for reading and then stores values into a list variable
-g = open("GoogleActivities.csv")
+g = open("Test- GoogleClassroom.csv")
 gcData = [row for row in csv.reader(g)]
 g.close()
 
 # Opens google file for reading and then stores values into a list variable
-p = open("PowerSchool Template.csv")
+p = open("PowerSchoolTemplateRobotics_pst.csv")
 psData = [row for row in csv.reader(p)]
 p.close()
 
@@ -23,8 +23,10 @@ month = {"Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "June": 6, "July": 7,
 for A in range(len(gcData[0])-3):  # Iterates number of assignments
 
     monthLetter = gcData[1][3+A][3]+gcData[1][3+A][4]+gcData[1][3+A][5]
+    if monthLetter == "Jun" or monthLetter == "Jul" or monthLetter == "Sep":
+        monthLetter = gcData[1][3+A][3]+gcData[1][3+A][4]+gcData[1][3+A][5]+gcData[1][3+A][6]
     day = gcData[1][3+A][0]+gcData[1][3+A][1]
-    year = "20" + gcData[1][3+A][7]+gcData[1][3+A][8]
+    year = "20" + gcData[1][3+A][-2]+gcData[1][3+A][-1]
     weekday = week[datetime.date(int(year), month[monthLetter], int(day)).weekday()]
     dueDate = weekday + " " + monthLetter + " " + day + " 00:00:00 CST " + year
 
@@ -40,7 +42,7 @@ for A in range(len(gcData[0])-3):  # Iterates number of assignments
         data.append((studentid[studentName], studentName, points))  # Matches GC file names with PS file IDs
 
     # Creates powerschool file from google file data
-    a = open("Assignment "+str(A+1)+".csv", "w")
+    a = open("Assignment "+str(A+1)+"_pst.csv", "w")
     for values in data:
         csv.writer(a, delimiter=",").writerow(values)
     a.close()
