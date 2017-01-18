@@ -1,2 +1,2 @@
-01/16/2017
-My program passed!!!
+01/18/2017
+Today is the first class we had on Game Programming! We spent some time importing pygame and then starting the game engine.
