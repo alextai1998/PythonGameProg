@@ -1,2 +1,2 @@
-01/18/2017
-Today is the first class we had on Game Programming! We spent some time importing pygame and then starting the game engine.
+01/19/2017
+We finished drawing the grid, and also moving the snake!
