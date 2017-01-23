@@ -3,7 +3,7 @@ import pygame
 pygame.init()
 
 
-def grid(window, color, sizeCell):
+def grid(window, color, cellSize, winSize):
     """
     This function will draw out lines to form a grid
     :param window: Surface (pygame.display.set_mode(size))
@@ -12,16 +12,16 @@ def grid(window, color, sizeCell):
     :return: None
     """
     # Horizontal Lines
-    for y in range(701):
-        pygame.draw.line(window, color, (0, 0 + y*sizeCell), (700, 0 + y*sizeCell))
+    for y in range(winSize[0]):
+        pygame.draw.line(window, color, (0, 0 + y*cellSize), (700, 0 + y*cellSize))
 
     # Vertical Lines
-    for x in range(501):
-        pygame.draw.line(window, color, (0 + x*sizeCell, 0), (0+x*sizeCell, 500))
+    for x in range(winSize[1]):
+        pygame.draw.line(window, color, (0 + x*cellSize, 0), (0+x*cellSize, 500))
 
 
-def snake(start_x, start_y):
-    pygame.draw.rect(screen, red, (start_x, start_y, 19, 19), 0)
+def snake(window, snakeCoord, cellSize, snakeColor):
+    pygame.draw.rect(screen, red, (snakeCoords[0]["x"]*cellSize, snakeCoords[0]["y"]*cellSize, 19, 19), 0)
 
 
 # Open a new window
@@ -31,6 +31,7 @@ pygame.display.set_caption("My First Game")
 
 black = (0, 0, 0)
 red = (255, 0, 0)
+cellSize = 20
 
 
 # The loop will carry on until the user exit the game
@@ -40,8 +41,11 @@ carryOn = True
 # The clock will be used to control how fast the screen updates
 clock = pygame.time.Clock()
 
-x = 1
-y = 1
+direction = "right"
+snakeCoords = [{"x": 5, "y": 5},
+               {"x": 5, "y": 4},
+               {"x": 5, "y": 3}]
+
 
 
 # -------- Main Program Loop -----------
@@ -56,29 +60,39 @@ while carryOn:
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_LEFT]:
-        x -= 20
+        direction = "left"
     if keys[pygame.K_RIGHT]:
-        x += 20
+        direction = "right"
     if keys[pygame.K_UP]:
-        y -= 20
+        direction = "up"
     if keys[pygame.K_DOWN]:
-        y += 20
+        direction = "down"
+
+    if direction is "up":
+        newHead = {"x": snakeCoords[0]["x"], "y": snakeCoords[0]["y"] - 1}
+    elif direction is "down":
+        newHead = {"x": snakeCoords[0]["x"], "y": snakeCoords[0]["y"] + 1}
+    elif direction is "left":
+        newHead = {"x": snakeCoords[0]["x"] - 1, "y": snakeCoords[0]["y"]}
     else:
-        x += 20
+        newHead = {"x": snakeCoords[0]["x"] + 1, "y": snakeCoords[0]["y"]}
+
+    snakeCoords.insert(0, newHead)
+    del snakeCoords[-1]
 
     # ---Game logic should go here---
 
     # ---Drawing code should go here---
     # First, clear the screen to WHITE.
     screen.fill((255, 255, 255))
-    grid(screen, black, 20)
-    snake(x, y)
+    grid(screen, black, cellSize, size)
+    snake(screen, snakeCoords, cellSize, (0, 155, 0))
 
     # Update the screen
     pygame.display.flip()
 
     # Limit to 60 frames per second
-    clock.tick(10)
+    clock.tick(2)
 
 
 # Once we have exited the game loop we can stop the game engine:

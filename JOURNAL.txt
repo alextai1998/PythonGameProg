@@ -1,2 +1,2 @@
-01/19/2017
-We finished drawing the grid, and also moving the snake!
+01/23/2017
+Today was a mostly troubleshooting class because of MacOS. Python class is now going to get Raspberry Pi too!
