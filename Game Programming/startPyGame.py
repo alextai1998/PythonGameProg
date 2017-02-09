@@ -1,4 +1,4 @@
-import pygame as pg
+import pygame as pg, gameLib as gl
 import sys
 from pygame.locals import *
 
@@ -43,19 +43,25 @@ def drawWorm(win, wormCoor, cellSize, wormColor):
 
 
 while True:  # main game loop
+
+    ch = gl.getkey()
+    if ord(ch) is 27:
+        pg.quit()
+        sys.exit()
+
+
     for event in pg.event.get():
         if event.type is QUIT:
             pg.quit()
             sys.exit()
 
-    keys = pg.key.get_pressed()
-    if keys[pg.K_LEFT]:
+    if ch == 'a':
         direction = 'left'
-    if keys[pg.K_RIGHT]:
+    if ch == 'd':
         direction = 'right'
-    if keys[pg.K_UP]:
+    if ch == 'w':
         direction = 'up'
-    if keys[pg.K_DOWN]:
+    if ch == 's':
         direction = 'down'
 
     if direction is 'up':

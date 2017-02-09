@@ -271,8 +271,3 @@ def insertionSort(items):
     print(stop2-start2)
     return items
 
-wblist = []
-
-preBubble(wblist)
-insertionSort(wblist)
-

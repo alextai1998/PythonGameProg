@@ -1,2 +1,2 @@
-2/8/2017
-Today we downloaded and wrote the OS software into our micro SD card so that we would be able to use it for our Raspberry Pis when they arrive.
+2/9/2017
+We figured out the keyboard problem!

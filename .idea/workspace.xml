@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbf3f9f-1a09-477e-94fd-a8be272c7637" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Game Programming/gameLib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Game Programming/statMachineDemo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game Programming/startPyGame.py" afterPath="$PROJECT_DIR$/Game Programming/startPyGame.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alexLib.py" afterPath="$PROJECT_DIR$/alexLib.py" />
     </list>
     <ignored path="PythonGameProg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,13 +26,48 @@
     <favorites_list name="PythonGameProg" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="statMachineDemo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Game Programming/statMachineDemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="31" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="startPyGame.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Game Programming/startPyGame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameLib.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Game Programming/gameLib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -38,11 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exerciseNumber7.py" />
-        <option value="$PROJECT_DIR$/skipping3s.py" />
-        <option value="$PROJECT_DIR$/testQuestion1.py" />
-        <option value="$PROJECT_DIR$/coffeeMaker.py" />
-        <option value="$PROJECT_DIR$/pizzaMachine.py" />
         <option value="$PROJECT_DIR$/functionListsPractice.py" />
         <option value="$PROJECT_DIR$/exerciseNumber6.py" />
         <option value="$PROJECT_DIR$/listMenu.py" />
@@ -72,7 +106,6 @@
         <option value="$PROJECT_DIR$/cypher.py" />
         <option value="$PROJECT_DIR$/decrypt.py" />
         <option value="$PROJECT_DIR$/pascalsTriangle.py" />
-        <option value="$PROJECT_DIR$/alexLib.py" />
         <option value="$PROJECT_DIR$/url.py" />
         <option value="$PROJECT_DIR$/classworkMisc.py" />
         <option value="$PROJECT_DIR$/csvTest.py" />
@@ -89,12 +122,18 @@
         <option value="$PROJECT_DIR$/Python/Python Final Project/Part 1 - CodinGame/mimeType.py" />
         <option value="$PROJECT_DIR$/Game Programming/gameMisc.py" />
         <option value="$PROJECT_DIR$/tvSeries.html" />
+        <option value="$PROJECT_DIR$/Game Programming/keyboardPygame.py" />
+        <option value="$PROJECT_DIR$/Game Programming/demo.py" />
+        <option value="$PROJECT_DIR$/alexLib.py" />
+        <option value="$PROJECT_DIR$/Game Programming/gameLib.py" />
+        <option value="$PROJECT_DIR$/Game Programming/statMachineDemo.py" />
+        <option value="$PROJECT_DIR$/Game Programming/startPyGame.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
-    <option name="height" value="1196" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -121,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,9 +179,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonGameProg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonGameProg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game Programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,25 +203,9 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/alextai/Desktop/PythonGameProg/url.py" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.startPyGame">
-    <configuration default="false" name="csvConvert (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonGameProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/csvConvert.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.statMachineDemo">
     <configuration default="false" name="chuckNorris" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,6 +270,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonGameProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game Programming/startPyGame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="statMachineDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Game Programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonGameProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game Programming/statMachineDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -385,19 +439,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.csvConvert (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.chuckNorris" />
-      <item index="2" class="java.lang.String" itemvalue="Python.csvConvert (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.gameMisc" />
-      <item index="4" class="java.lang.String" itemvalue="Python.startPyGame" />
+      <item index="0" class="java.lang.String" itemvalue="Python.chuckNorris" />
+      <item index="1" class="java.lang.String" itemvalue="Python.csvConvert (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.gameMisc" />
+      <item index="3" class="java.lang.String" itemvalue="Python.startPyGame" />
+      <item index="4" class="java.lang.String" itemvalue="Python.statMachineDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.startPyGame" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gameMisc" />
-        <item index="2" class="java.lang.String" itemvalue="Python.csvConvert (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.chuckNorris" />
-        <item index="4" class="java.lang.String" itemvalue="Python.csvConvert (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.statMachineDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.startPyGame" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gameMisc" />
+        <item index="3" class="java.lang.String" itemvalue="Python.csvConvert (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.chuckNorris" />
       </list>
     </recent_temporary>
   </component>
@@ -408,23 +462,23 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1196" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5155345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21800947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2478411" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24823321" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -481,15 +535,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="60" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/googleSearchAlgorithm.py" />
-    <entry file="file://$PROJECT_DIR$/listAlternativeCombine.py" />
-    <entry file="file://$PROJECT_DIR$/Lego Challenge.ipynb" />
-    <entry file="file://$PROJECT_DIR$/listPrintFrame.py" />
     <entry file="file://$PROJECT_DIR$/lyrics.txt" />
     <entry file="file://$PROJECT_DIR$/JOURNAL.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -530,13 +580,6 @@
     <entry file="file://$PROJECT_DIR$/cypher.py" />
     <entry file="file://$PROJECT_DIR$/decrypt.py" />
     <entry file="file://$PROJECT_DIR$/url.py" />
-    <entry file="file://$PROJECT_DIR$/alexLib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="273" column="10" selection-start-line="273" selection-start-column="10" selection-end-line="273" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classworkMisc.ipynb" />
     <entry file="file://$PROJECT_DIR$/classworkMisc.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -620,12 +663,72 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tvSeries.html" />
+    <entry file="file://$PROJECT_DIR$/Game Programming/keyboardPygame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game Programming/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alexLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#136#538#0" expanded="false" />
+            <element signature="e#562#855#0" expanded="false" />
+            <element signature="e#884#1067#0" expanded="false" />
+            <element signature="e#1095#1238#0" expanded="false" />
+            <element signature="e#1265#1845#0" expanded="false" />
+            <element signature="e#1866#2427#0" expanded="false" />
+            <element signature="e#2457#2677#0" expanded="false" />
+            <element signature="e#2713#3278#0" expanded="false" />
+            <element signature="e#3310#3634#0" expanded="false" />
+            <element signature="e#3672#3975#0" expanded="false" />
+            <element signature="e#4027#4379#0" expanded="false" />
+            <element signature="e#4410#5000#0" expanded="false" />
+            <element signature="e#5030#5625#0" expanded="false" />
+            <element signature="e#5655#5894#0" expanded="false" />
+            <element signature="e#5924#6300#0" expanded="false" />
+            <element signature="e#6336#6722#0" expanded="false" />
+            <element signature="e#6755#7033#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game Programming/gameLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game Programming/statMachineDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Game Programming/startPyGame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="258">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
