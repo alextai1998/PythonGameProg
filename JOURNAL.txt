@@ -1,2 +1,2 @@
-2/9/2017
-We figured out the keyboard problem!
+2/13/2017
+We finally got our Raspberry Pi. We are setting it up today.
