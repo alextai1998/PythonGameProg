@@ -1,4 +1,4 @@
-import pygame as pg, gameLib as gl
+import pygame as pg
 import sys
 from pygame.locals import *
 
@@ -35,37 +35,56 @@ def drawGrid(win, winSize, cellSize, color):
 
 
 def drawWorm(win, wormCoor, cellSize, wormColor):
-    for c in wormCoor:
+    (a, b, c) = wormColor
+    for i, c in enumerate(wormCoor):
         x = c['x'] * cellSize
         y = c['y'] * cellSize
         wormSegmentRect = pg.Rect(x, y, cellSize, cellSize)
-        pg.draw.rect(win, wormColor, wormSegmentRect)
+        color = wormColor
+        if i == 0:
+            color = (155, 0, 0)
+        elif i == 1:
+            color = (190, 0, 00)
+        pg.draw.rect(win, color, wormSegmentRect)
 
 
 while True:  # main game loop
-
-    ch = gl.getkey()
-    if ord(ch) is 27:
-        pg.quit()
-        sys.exit()
-
-
     for event in pg.event.get():
         if event.type is QUIT:
             pg.quit()
             sys.exit()
 
-    if ch == 'a':
-        direction = 'left'
-    if ch == 'd':
-        direction = 'right'
-    if ch == 'w':
+    if 'x' == 19 and direction is 'right':
+        direction = 'down'
+    elif 'x' == 0 and direction is 'left':
         direction = 'up'
-    if ch == 's':
+    elif 'y' == 14 and direction is 'down':
+        direction = 'left'
+    elif 'y' == 0 and direction is 'up':
+        direction = 'right'
+
+    keys = pg.key.get_pressed()
+    if keys[pg.K_LEFT] and direction is not 'right':
+        direction = 'left'
+    if keys[pg.K_RIGHT] and direction is not 'left':
+        direction = 'right'
+    if keys[pg.K_UP] and direction is not 'down':
+        direction = 'up'
+    if keys[pg.K_DOWN] and direction is not 'up':
         direction = 'down'
 
+    # Constraints
+    if direction is 'right' and wormCoords[0]['x'] == winSize[0]/cellSize - 1:
+        direction = 'down'
+    if direction is 'down' and wormCoords[0]['y'] == winSize[1]/cellSize - 1:
+        direction = 'left'
+    if direction is 'up' and wormCoords[0]['y'] == 0:
+        direction = 'right'
+    if direction is 'left' and wormCoords[0]['x'] == 0:
+        direction = 'up'
+
     if direction is 'up':
-        newHead = {'x': wormCoords[0]['x'], 'y': wormCoords[0]['y'] - 1}
+            newHead = {'x': wormCoords[0]['x'], 'y': wormCoords[0]['y'] - 1}
     elif direction is 'down':
         newHead = {'x': wormCoords[0]['x'], 'y': wormCoords[0]['y'] + 1}
     elif direction is 'left':
@@ -79,7 +98,7 @@ while True:  # main game loop
 
     window.fill((255, 255, 255))
     drawGrid(window, winSize, cellSize, (40, 40, 40))
-    drawWorm(window, wormCoords, cellSize, (0, 155, 0))
+    drawWorm(window, wormCoords, cellSize, (225, 0, 0))
 
     # --- Go ahead and update the screen with what we've drawn.
     pg.display.flip()

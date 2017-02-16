@@ -1,2 +1,2 @@
 2/13/2017
-We finally got our Raspberry Pi. We are setting it up today.
+We added constraints to our snake game!
