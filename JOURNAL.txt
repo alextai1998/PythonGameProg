@@ -1,2 +1,2 @@
-2/13/2017
-We added constraints to our snake game!
+2/20/2017
+Today in class we studied and made a state machine for traffic lights. I also completed the snake game so that it grows when it eats apples and dies when it touches the wall or itself.

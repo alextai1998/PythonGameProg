@@ -141,7 +141,6 @@ while start:  # main game loop
     if keys[pg.K_DOWN] and direction is not 'up':
         direction = 'down'
 
-
     if direction is 'up':
         newHead = {'x': wormCoords[0]['x'], 'y': wormCoords[0]['y'] - 1}
     elif direction is 'down':
@@ -150,7 +149,6 @@ while start:  # main game loop
         newHead = {'x': wormCoords[0]['x'] - 1, 'y': wormCoords[0]['y']}
     else:
         newHead = {'x': wormCoords[0]['x'] + 1, 'y': wormCoords[0]['y']}
-
 
     window.fill((255, 255, 255))
     drawGrid(window, winSize, cellSize, (40, 40, 40))
