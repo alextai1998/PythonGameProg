@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbf3f9f-1a09-477e-94fd-a8be272c7637" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Game Programming/Snake Game/endscreen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Game Programming/Snake Game/startPyGame.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Game Programming/Snake Game/startscreen.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Game Programming/walkingMachine/walkingMachine.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Game Programming/SNES - Super Mario World - Mario.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Game Programming/doubleJumpingStateMachine/Jumplink.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Game Programming/doubleJumpingStateMachine/Wakerlink.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Game Programming/doubleJumpingStateMachine/duxk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Game Programming/jumplink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Game Programming/waitlink.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game Programming/doubleJumpingStateMachine/stateMachines.py" afterPath="$PROJECT_DIR$/Game Programming/doubleJumpingStateMachine/stateMachines.py" />
     </list>
     <ignored path="PythonGameProg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,22 +30,36 @@
     <favorites_list name="PythonGameProg" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="trafficLight.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game Programming/trafficLightStateMachine/trafficLight.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="776">
+              <caret line="57" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stateMachines.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stateMachines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game Programming/doubleJumpingStateMachine/stateMachines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+            <state relative-caret-position="1050">
+              <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="89" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="walkingMachine.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Game Programming/walkingMachine/walkingMachine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -64,8 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/listMenu.py" />
-        <option value="$PROJECT_DIR$/listWordsInStrings.py" />
         <option value="$PROJECT_DIR$/listPrintFrame.py" />
         <option value="$PROJECT_DIR$/googleSearchAlgorithm.py" />
         <option value="$PROJECT_DIR$/listAlternativeCombine.py" />
@@ -114,13 +131,15 @@
         <option value="$PROJECT_DIR$/Game Programming/gameLib.py" />
         <option value="$PROJECT_DIR$/Game Programming/startPyGame.py" />
         <option value="$PROJECT_DIR$/Game Programming/Snake Game/startPyGame.py" />
+        <option value="$PROJECT_DIR$/Game Programming/doubleJumpingStateMachine/stateMachines.py" />
         <option value="$PROJECT_DIR$/Game Programming/trafficLightStateMachine/trafficLight.py" />
+        <option value="$PROJECT_DIR$/Game Programming/walkingMachine/walkingMachine.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1196" />
+    <option name="width" value="1311" />
+    <option name="height" value="1172" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -147,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,13 +213,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="walkingMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonGameProg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonGameProg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game Programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="doubleJumpingStateMachine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,41 +246,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/alextai/Desktop/PythonGameProg/url.py" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Python.startPyGame">
-    <configuration default="false" name="csvConvert (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/Testing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonGameProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Python Final Project/Part 2 - CSV/Testing/csvConvert.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="gameMisc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Game Programming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonGameProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game Programming/gameMisc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.trafficLight">
     <configuration default="false" name="startPyGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,6 +294,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonGameProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game Programming/gameLib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="walkingMachine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Game Programming/walkingMachine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonGameProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game Programming/walkingMachine/walkingMachine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="trafficLight" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Game Programming/trafficLightStateMachine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonGameProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game Programming/trafficLightStateMachine/trafficLight.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -443,19 +480,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.csvConvert (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gameMisc" />
-      <item index="2" class="java.lang.String" itemvalue="Python.startPyGame" />
-      <item index="3" class="java.lang.String" itemvalue="Python.statMachineDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.gameLib" />
+      <item index="0" class="java.lang.String" itemvalue="Python.startPyGame" />
+      <item index="1" class="java.lang.String" itemvalue="Python.statMachineDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.gameLib" />
+      <item index="3" class="java.lang.String" itemvalue="Python.walkingMachine" />
+      <item index="4" class="java.lang.String" itemvalue="Python.trafficLight" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.startPyGame" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gameLib" />
-        <item index="2" class="java.lang.String" itemvalue="Python.statMachineDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Python.gameMisc" />
-        <item index="4" class="java.lang.String" itemvalue="Python.csvConvert (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.trafficLight" />
+        <item index="1" class="java.lang.String" itemvalue="Python.walkingMachine" />
+        <item index="2" class="java.lang.String" itemvalue="Python.startPyGame" />
+        <item index="3" class="java.lang.String" itemvalue="Python.gameLib" />
+        <item index="4" class="java.lang.String" itemvalue="Python.statMachineDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -466,23 +503,23 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1196" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1311" height="1172" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21800947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11705426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24729241" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2478411" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -532,12 +569,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Game Programming/trafficLightStateMachine/trafficLight.py</url>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -550,7 +581,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dictionaryClasswork.py" />
     <entry file="file://$PROJECT_DIR$/ticketGenerator.py" />
     <entry file="file://$PROJECT_DIR$/legoDistinguisher.py" />
     <entry file="file://$PROJECT_DIR$/listWordsInStrings.py" />
@@ -688,25 +718,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Game Programming/trafficLightStateMachine/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Game Programming/Snake Game/startPyGame.py">
+    <entry file="file://$PROJECT_DIR$/Game Programming/Snake Game/startPyGame.py" />
+    <entry file="file://$PROJECT_DIR$/Game Programming/doubleJumpingStateMachine/stateMachines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="103" selection-end-column="12" />
+        <state relative-caret-position="1050">
+          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="89" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Game Programming/trafficLightStateMachine/trafficLight.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="776">
+          <caret line="57" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game Programming/doubleJumpingStateMachine/stateMachines.py">
+    <entry file="file://$PROJECT_DIR$/Game Programming/walkingMachine/walkingMachine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        <state relative-caret-position="544">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
