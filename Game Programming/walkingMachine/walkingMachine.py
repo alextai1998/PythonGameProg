@@ -13,7 +13,7 @@ pg.display.set_caption('myExplorer')
 # --- The clock will be used to control how fast the screen updates
 clock = pg.time.Clock()
 
-# --- Load Images
+# --- Load images
 wait = pg.image.load('wait.png')
 downwalk1 = pg.image.load('down_walk_1.png')
 downwalk2 = pg.image.load('down_walk_2.png')
@@ -24,15 +24,16 @@ rightwalk2 = pg.image.load('right_walk_2.png')
 leftwalk1 = pg.image.load('left_walk_1.png')
 leftwalk2 = pg.image.load('left_walk_2.png')
 
-scaleWait = pg.transform.scale(wait, (66, 105))
-scaleDWalk1 = pg.transform.scale(downwalk1, (66, 105))
-scaleDWalk2 = pg.transform.scale(downwalk2, (66, 105))
-scaleUWalk1 = pg.transform.scale(upwalk1, (66, 105))
-scaleUWalk2 = pg.transform.scale(upwalk2, (66, 105))
-scaleRWalk1 = pg.transform.scale(rightwalk1, (75, 105))
-scaleRWalk2 = pg.transform.scale(rightwalk2, (66, 105))
-scaleLWalk1 = pg.transform.scale(leftwalk1, (66, 105))
-scaleLWalk2 = pg.transform.scale(leftwalk2, (66, 105))
+# --- Scale the images
+scaleWait = pg.transform.scale(wait, (99, 157))
+scaleDWalk1 = pg.transform.scale(downwalk1, (99, 157))
+scaleDWalk2 = pg.transform.scale(downwalk2, (99, 157))
+scaleUWalk1 = pg.transform.scale(upwalk1, (99, 157))
+scaleUWalk2 = pg.transform.scale(upwalk2, (99, 157))
+scaleRWalk1 = pg.transform.scale(rightwalk1, (99, 157))
+scaleRWalk2 = pg.transform.scale(rightwalk2, (99, 157))
+scaleLWalk1 = pg.transform.scale(leftwalk1, (99, 157))
+scaleLWalk2 = pg.transform.scale(leftwalk2, (99, 157))
 
 # --- Dictionary for the character
 felix = {
@@ -62,9 +63,9 @@ while True:
             sys.exit()
     keys = pg.key.get_pressed()
 
-    window.flll((255, 255, 255))
+    window.fill((255, 255, 255))
 
-    if state['state'] is wait:
+    if state['state'] is 'wait':
         # --- Output ---
         state['image'] = 'wait'
         # --- Transition ---
@@ -132,7 +133,7 @@ while True:
 
     # --- Redrawing the character
     felix_rect = pg.Rect(felix['pos_x'], felix['pos_y'], 50, 50)
-    image = state['state']
+    image = state['image']
     window.blit(felix[image], felix_rect)
 
     # --- Go ahead and update the screen with what we've drawn.

@@ -1,2 +1,2 @@
-2/22/2017
-Today is a short class, Dr. Pinzon checked over our snake game and we attempted to make a state machine that jumps the character twice (double jumping)
+3/8/2017
+Today is a short class too. We watched videos on object programming in python and also learned about class variables.
