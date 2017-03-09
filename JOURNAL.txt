@@ -1,2 +1,2 @@
-3/8/2017
-Today is a short class too. We watched videos on object programming in python and also learned about class variables.
+3/9/2017
+We used OOP to recreate the particle/physics simulator!
