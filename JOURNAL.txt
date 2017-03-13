@@ -1,2 +1,2 @@
-3/9/2017
-We used OOP to recreate the particle/physics simulator!
+3/13/2017
+Today in Python, we made the solar system sim!
