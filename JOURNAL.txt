@@ -1,2 +1,2 @@
-3/13/2017
-Today in Python, we made the solar system sim!
+3/15/2017
+Today we spent some time exploring the different games that we could do for midterms. I chose the classic Breakout game, the one where the ball breaks bricks.
