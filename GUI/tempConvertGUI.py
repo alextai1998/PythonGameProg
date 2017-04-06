@@ -35,18 +35,18 @@ class Example(QWidget):
         self.comboBox.addItem("Deep Fried Spring Rolls")
         self.comboBox.move(50, 50)
 
+
         self.show()
 
     def convert(self):
         rolls = int(self.num.value())
         # Condition here to determine calories per roll
-        #
-        # if self.comboBox == "Rice Paper Spring Rolls w/ Shrimp":
-        #     calories = rolls * 81
-        # else:
-        #     calories = rolls * 178
-        self.text1.insertPlainText(str(self.comboBox))
-        # str(calories) + " calories! "
+
+        if self.comboBox.currentText() == "Rice Paper Spring Rolls w/ Shrimp":
+            calories = rolls * 81
+        else:
+            calories = rolls * 178
+        self.text1.setPlainText(str(calories) + " calories! ")
 
 
 # --- main program
