@@ -1,2 +1,2 @@
-3/22/2017
-We spent today’s class working on our midterms too!
+4/6/2017
+Today we made our first GUI and tried to make a mini converter.

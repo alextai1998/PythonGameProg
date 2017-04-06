@@ -126,7 +126,7 @@ def bounce(particle):
 
 particles = new_particles(n=30)
 
-while True: # --- Main game loop
+while True:  # --- Main game loop
     for event in pg.event.get():
         if event.type is QUIT:
             pg.quit()
