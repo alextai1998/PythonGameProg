@@ -1,2 +1,2 @@
-4/6/2017
-Today we made our first GUI and tried to make a mini converter.
+4/10/2017
+More practice with making GUI’s.
