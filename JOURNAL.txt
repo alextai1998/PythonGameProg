@@ -1,2 +1,2 @@
-4/10/2017
-More practice with making GUI’s.
+4/13/2017
+Today we did presentations on Darren’s widget (QDockWidget) and mine!

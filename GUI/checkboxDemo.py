@@ -1,32 +1,39 @@
+# QCheckBox
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QCheckBox
 from PyQt5.QtGui import QIcon
 
 
-class Example(QWidget):
+class CheckDemo(QWidget):
     def __init__(self):
         super().__init__()
-        self.initUI()
+        self.initGUI()
 
-    def initUI(self):
-        self.setGeometry(300, 300, 350, 250)
+    def initGUI(self):
+        self.setGeometry(400, 400, 450, 350)
         self.setWindowTitle('CheckBox Demonstration')
 
         # --- add a checkbox
         self.check = QCheckBox('This is a checkbox!', self)
         self.check.setTristate(True)  # Allows for tristate!
         self.check.resize(250, 30)
-        self.check.move(100, 30)
+        self.check.move(150, 30)
         self.check.stateChanged.connect(self.dosth)
         self.check.setIcon(QIcon("/Users/alextai/Desktop/PythonGameProg/GUI/emoji_alien_facebook.png"))
-
 
         # --- add a push button
         self.btn1 = QPushButton('Reset', self)
         self.btn1.setToolTip('This button resets the checkboxes!')
         self.btn1.resize(250, 90)
-        self.btn1.move(55, 100)
+        self.btn1.move(100, 100)
         self.btn1.clicked.connect(self.reset)
+
+        # --- add a push button
+        self.btn2 = QPushButton('Disable/Enable', self)
+        self.btn2.setToolTip('This button disables/enables the checkboxes!')
+        self.btn2.resize(250, 90)
+        self.btn2.move(100, 200)
+        self.btn2.clicked.connect(self.toggle)
 
         self.show()
 
@@ -49,8 +56,16 @@ class Example(QWidget):
         self.check.setChecked(False)
         self.setWindowTitle('CheckBox Demonstration')
 
+    def toggle(self):
+        if self.check.isCheckable():
+            self.check.setCheckable(False)
+            self.setWindowTitle('CheckBox has been disabled!')
+        else:
+            self.check.setCheckable(True)
+            self.setWindowTitle('CheckBox has been enabled!')
+
 
 # --- main program
 app = QApplication(sys.argv)
-ex = Example()
+ex = CheckDemo()
 sys.exit(app.exec_())
