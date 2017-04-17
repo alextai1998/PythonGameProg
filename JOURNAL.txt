@@ -1,2 +1,2 @@
-4/13/2017
-Today we did presentations on Darren’s widget (QDockWidget) and mine!
+4/17/2017
+We almost finished all the presentation for GUI widgets our HW is to make an ultimate GUI that includes all the presented widgets.

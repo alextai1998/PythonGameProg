@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QTextEdit, QSpinBox, QComboBox
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
 
 
 class Example(QWidget):
@@ -8,9 +8,8 @@ class Example(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setGeometry(300, 300, 350, 250)
-        self.setWindowTitle('Buttons')
-
+        self.setGeometry(100, 100, 500, 500)
+        self.setWindowTitle('QLabel Demo')
 
         # --- add a push button
         self.btn1 = QPushButton('Button A', self)
