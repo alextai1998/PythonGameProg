@@ -1,6 +1,6 @@
 # QCheckBox -- A demonstration of all the features of QCheckBox
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QCheckBox
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QCheckBox,
 from PyQt5.QtGui import QIcon
 
 
