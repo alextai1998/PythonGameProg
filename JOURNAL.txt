@@ -1,2 +1,2 @@
-4/20/2017
-We finished with Cici’s PYQT Widget called QTabWidget today and worked on the ultimate gui.
+4/21/2017
+Finalized the ultimate GUI

@@ -140,7 +140,9 @@ class Ultimate(QTabWidget):
         self.lb2.setOpenExternalLinks(True)
         self.cb = QCheckBox('I agree to the terms and conditions', self)
         self.btn3 = QPushButton('Yes', self)
-        self.btn3.clicked.connect(self.nextTab)
+        self.btn3.clicked.connect(self.submit)
+        self.lb3 = QLabel(self)
+        self.lb3.setStyleSheet('color: red')
 
         # --- display all elements
         layout.addRow(self.pb)
@@ -148,6 +150,7 @@ class Ultimate(QTabWidget):
         layout.addRow(self.lb2)
         layout.addRow(self.cb)
         layout.addRow('Submit?', self.btn3)
+        layout.addRow(self.lb3)
 
     def tab_5(self):
         layout = QFormLayout()
@@ -166,6 +169,14 @@ class Ultimate(QTabWidget):
     def nextTab(self):
         print(self.currentIndex())
         self.setCurrentIndex(self.currentIndex() + 1)
+
+    def submit(self):
+        if self.cb.isChecked():
+            self.setCurrentIndex(self.currentIndex() + 1)
+            self.lb3.setText("")
+        else:
+            self.lb3.setText("YOU NEED TO AGREE TO OUR TERMS BEFORE USING THE ULTIMATE GUI!")
+
 
 # --- main program
 app = QApplication(sys.argv)
