@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fbbf3f9f-1a09-477e-94fd-a8be272c7637" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/ultimateGUI.py" afterPath="$PROJECT_DIR$/GUI/ultimateGUI.py" />
     </list>
     <ignored path="PythonGameProg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,19 +21,15 @@
     <favorites_list name="PythonGameProg" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ultimateGUI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GUI/ultimateGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-523">
-              <caret line="134" column="4" lean-forward="true" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
+            <state relative-caret-position="408">
+              <caret line="185" column="0" lean-forward="true" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
               <folding>
-                <element signature="e#0#89#1" expanded="false" />
-                <element signature="e#352#393#0" expanded="false" />
-                <element signature="e#426#1065#0" expanded="false" />
-                <element signature="e#1096#2506#0" expanded="false" />
-                <element signature="e#2537#3512#0" expanded="false" />
-                <element signature="e#3543#4455#0" expanded="false" />
+                <element signature="e#91#101#0" expanded="true" />
+                <element signature="e#324#6256#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -130,7 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,6 +152,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -781,15 +775,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/ultimateGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-523">
-          <caret line="134" column="4" lean-forward="true" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
+        <state relative-caret-position="408">
+          <caret line="185" column="0" lean-forward="true" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
           <folding>
-            <element signature="e#0#89#1" expanded="false" />
-            <element signature="e#352#393#0" expanded="false" />
-            <element signature="e#426#1065#0" expanded="false" />
-            <element signature="e#1096#2506#0" expanded="false" />
-            <element signature="e#2537#3512#0" expanded="false" />
-            <element signature="e#3543#4455#0" expanded="false" />
+            <element signature="e#91#101#0" expanded="true" />
+            <element signature="e#324#6256#0" expanded="false" />
           </folding>
         </state>
       </provider>
