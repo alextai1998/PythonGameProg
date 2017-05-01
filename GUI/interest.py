@@ -13,8 +13,8 @@ class Ui_Form(object):
         Form.setObjectName("Form")
         Form.resize(400, 300)
         Form.setStyleSheet("font: 57 18pt \"Helvetica Neue\";\n"
-"background-color: rgb(31, 31, 31);\n"
-"color: rgb(255, 255, 255);")
+                           "background-color: rgb(31, 31, 31);\n"
+                           "color: rgb(255, 255, 255);")
         self.formLayoutWidget = QtWidgets.QWidget(Form)
         self.formLayoutWidget.setGeometry(QtCore.QRect(30, 20, 341, 251))
         self.formLayoutWidget.setObjectName("formLayoutWidget")
@@ -25,54 +25,69 @@ class Ui_Form(object):
         self.formLayout.setContentsMargins(0, 0, 0, 0)
         self.formLayout.setSpacing(0)
         self.formLayout.setObjectName("formLayout")
+
         self.label = QtWidgets.QLabel(self.formLayoutWidget)
         self.label.setObjectName("label")
         self.formLayout.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.label)
+
         self.label_2 = QtWidgets.QLabel(self.formLayoutWidget)
         self.label_2.setObjectName("label_2")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.label_2)
+
         self.doubleSpinBox = QtWidgets.QDoubleSpinBox(self.formLayoutWidget)
         self.doubleSpinBox.setEnabled(True)
+
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.doubleSpinBox.sizePolicy().hasHeightForWidth())
+
         self.doubleSpinBox.setSizePolicy(sizePolicy)
         self.doubleSpinBox.setBaseSize(QtCore.QSize(0, 0))
         self.doubleSpinBox.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
-        self.doubleSpinBox.setObjectName("doubleSpinBox")
+        self.doubleSpinBox.setObjectName("ratebox")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.doubleSpinBox)
+
         self.label_3 = QtWidgets.QLabel(self.formLayoutWidget)
         self.label_3.setObjectName("label_3")
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.label_3)
+
         self.label_4 = QtWidgets.QLabel(self.formLayoutWidget)
         self.label_4.setObjectName("label_4")
         self.formLayout.setWidget(4, QtWidgets.QFormLayout.LabelRole, self.label_4)
+
         self.doubleSpinBox_2 = QtWidgets.QDoubleSpinBox(self.formLayoutWidget)
         self.doubleSpinBox_2.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.doubleSpinBox_2.setReadOnly(False)
         self.doubleSpinBox_2.setMaximum(10000.0)
         self.doubleSpinBox_2.setObjectName("doubleSpinBox_2")
         self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.doubleSpinBox_2)
+
         spacerItem = QtWidgets.QSpacerItem(20, 200, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.formLayout.setItem(3, QtWidgets.QFormLayout.LabelRole, spacerItem)
+
         self.comboBox = QtWidgets.QComboBox(self.formLayoutWidget)
         self.comboBox.setBaseSize(QtCore.QSize(0, 0))
         self.comboBox.setObjectName("comboBox")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
+        self.comboBox.addItems(["{} years".format(x) for x in range(2, 21)])
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.comboBox)
 
         self.retranslateUi(Form)
+
+        # --- Connect signals
+        self.doubleSpinBox_2.valueChanged.connect(self.calculate)
+        self.doubleSpinBox.valueChanged.connect(self.calculate)
+        self.comboBox.currentIndexChanged.connect(self.calculate)
+
         QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def calculate(self):
+        """Calculates compound interest"""
+        principal = self.doubleSpinBox_2.value()
+        rate = self.doubleSpinBox.value()
+        years = self.comboBox.currentIndex() + 1
+        amount = principal * ((1 + (rate/100.0)) ** years)
+        self.label_4.setText("$ {0:.2f}".format(amount))
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate

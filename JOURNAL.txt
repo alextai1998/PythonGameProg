@@ -1,2 +1,2 @@
 4/24/2017
-Worked on GUI
+Today we used a PyQt application called QtDesigner to design our GUI. It ironically has a better UI compared to the nonexistent UI of programing a GUI yourself. Just like add and drop, we constructed our GUI and then later on exported the files (ui file) and converted it into a py file.
