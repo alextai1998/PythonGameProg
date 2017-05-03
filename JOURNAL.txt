@@ -1,2 +1,25 @@
-4/24/2017
-Today we used a PyQt application called QtDesigner to design our GUI. It ironically has a better UI compared to the nonexistent UI of programing a GUI yourself. Just like add and drop, we constructed our GUI and then later on exported the files (ui file) and converted it into a py file.
+5/3/2017
+I organized my git repository for the Python/ Game Programing class. Below you can find the directory tree of my repository.
+
+I also finished the Find and Replace GUI and have added the ui file, converted python file, and python main file into the “Find and Replace GUI” directory (refer below).
+
+
+
+////////////////////////////////////
+//Directory Tree of PythonGameProg//
+////////////////////////////////////
+
+* Semester 1
+	* Python
+		* Python Final Project
+* Semester 2
+	* Game Programming
+		* Breakout Game
+		* Simulators
+		* Snake Game
+		* State Machines
+	* GUI
+		* Class GUI Demos
+		* Find and Replace GUI
+		* Interest Calculator GUI
+	* OOP
