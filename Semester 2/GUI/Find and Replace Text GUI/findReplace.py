@@ -9,6 +9,30 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_Form(object):
+    def __init__(self):
+        self.lyrics = """[Verse 1: Zara Larsson]
+I’ve been hearing symphonies
+Before all I heard was silence
+A rhapsody for you and me
+And every melody is timeless
+Life was stringing me along
+Then you came and you cut me loose
+Was solo singing on my own
+Now I can’t find the key without you
+
+[Pre-Chorus: Zara Larsson]
+And now your song is on repeat
+And I’m dancin' on, to your heartbeat
+And when you’re gone, I feel incomplete
+So if you want the truth
+
+[Chorus: Zara Larsson]
+I just wanna be part of your symphony
+Will you hold me tight and not let go?
+Symphony
+Like a love song on the radio
+Will you hold me tight and not let go?"""
+
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(552, 232)
@@ -89,20 +113,29 @@ class Ui_Form(object):
         self.mainBox.addWidget(self.line)
         self.rightSide = QtWidgets.QVBoxLayout()
         self.rightSide.setObjectName("rightSide")
+
         self.pushButton = QtWidgets.QPushButton(self.horizontalLayoutWidget)
         self.pushButton.setObjectName("pushButton")
+        self.pushButton.clicked.connect(self.find)
         self.rightSide.addWidget(self.pushButton)
+
         self.pushButton_2 = QtWidgets.QPushButton(self.horizontalLayoutWidget)
         self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_2.clicked.connect(self.replace)
         self.rightSide.addWidget(self.pushButton_2)
+
         self.pushButton_3 = QtWidgets.QPushButton(self.horizontalLayoutWidget)
         self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_3.clicked.connect(self.replaceAll)
         self.rightSide.addWidget(self.pushButton_3)
+
         spacerItem2 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.rightSide.addItem(spacerItem2)
+
         self.pushButton_4 = QtWidgets.QPushButton(self.horizontalLayoutWidget)
         self.pushButton_4.setObjectName("pushButton_4")
         self.rightSide.addWidget(self.pushButton_4)
+
         self.mainBox.addLayout(self.rightSide)
         self.horizontalLayoutWidget.raise_()
 
@@ -124,3 +157,19 @@ class Ui_Form(object):
         self.pushButton_3.setText(_translate("Form", "Replace All"))
         self.pushButton_4.setText(_translate("Form", "Close"))
 
+    def find(self):
+        word = self.find_le.text()
+        textlist = self.lyrics.split()
+        self.results = []
+        for idx, w in enumerate(textlist):
+            if w == word:
+                self.results.append(idx)
+        print(self.results)
+
+    def replaceAll(self):
+        self.lyrics = self.lyrics.replace(self.find_le.text(), self.replace_le.text())
+        print(self.lyrics)
+
+    def replace(self):
+        self.lyrics = self.lyrics.replace(self.find_le.text(), self.replace_le.text(), 1)
+        print(self.lyrics)
